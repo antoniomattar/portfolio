@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Java, Javascript and Python. </b>
               </i>
               <br />
               <br />
@@ -97,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
