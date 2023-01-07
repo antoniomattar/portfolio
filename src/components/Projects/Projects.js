@@ -22,7 +22,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="F1 Streaming Website"
-              description="Sportsdv streaming website to watch F1 ."
+              description="Sports streaming website to watch F1 ."
               ghLink="https://github.com/antoniomattar/f1-web"
               demoLink="https://f1-web-amber.vercel.app/"
             />
