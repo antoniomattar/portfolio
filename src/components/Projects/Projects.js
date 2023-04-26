@@ -46,7 +46,7 @@ function Projects() {
                 imgPath={UICL}
                 isBlog={false}
                 title="UICL Nigeria Website"
-                description="Construction Company Website"
+                description="Construction Company Website. (Still not finished)"
                 ghLink="https://uicl.cc"
                 demoLink="https://uicl.cc"
               />
