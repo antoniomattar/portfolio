@@ -21,17 +21,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={f1}
-              isBlog={false}
-              title="F1 Streaming Website"
-              description="Sports streaming website to watch F1 ."
-              ghLink="https://github.com/antoniomattar/f1-web"
-              demoLink="https://f1-web-amber.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
                 imgPath={LBL}
                 isBlog={false}
                 title="Lebanese Basketball Website"
@@ -39,6 +28,17 @@ function Projects() {
                 ghLink="https://github.com/antoniomattar/leb-basketball-site-next"
                 demoLink="https://leb-basketball-site-next.vercel.app"
               />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={f1}
+              isBlog={false}
+              title="F1 Streaming Website"
+              description="Sports streaming website to watch F1 ."
+              ghLink="https://github.com/antoniomattar/f1-web"
+              demoLink="https://f1-web-amber.vercel.app/"
+            />
           </Col>
 
           <Col md={4} className="project-card">
