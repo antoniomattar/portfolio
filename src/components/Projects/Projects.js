@@ -47,8 +47,8 @@ function Projects() {
                 isBlog={false}
                 title="UICL Nigeria Website"
                 description="Construction Company Website. (Still not finished)"
-                ghLink="https://uicl.cc"
-                demoLink="https://uicl.cc"
+                ghLink="https://github.com/antoniomattar/uicl-nigeria"
+                demoLink="https://uicl-nigeria.vercel.app"
               />
           </Col>
 
