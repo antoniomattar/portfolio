@@ -10,10 +10,11 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Antonio Mattar </span>
             from <span className="purple"> Koura, Lebanon.</span>
-            <br />I am a junior student pursuing in Maths and Computer Science at Aix-Marseille University France.
+            <br />I am a junior student pursuing in Software Engineering at <span className="green">ENSIMAG. </span> 
+            <br /> Top French Engineering school in Computer Science and Applied Mathematics.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from solving problems, here are some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">

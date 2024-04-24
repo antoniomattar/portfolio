@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import f1 from "../../Assets/Projects/f1.png";
 import LBL from "../../Assets/Projects/LBL.png";
 import UICL from "../../Assets/Projects/UICL.png";
+import nyeCountdown from "../../Assets/Projects/nye-countdown.png";
+import bf from "../../Assets/Projects/bf.png";
 
 function Projects() {
   return (
@@ -49,6 +51,27 @@ function Projects() {
                 description="Construction Company Website. (Still not finished)"
                 ghLink="https://github.com/antoniomattar/uicl-nigeria"
                 demoLink="https://uicl-nigeria.vercel.app"
+              />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={nyeCountdown}
+                isBlog={false}
+                title="New year countdown Website"
+                description="Countdown to the new year 2024 with fireworks and music."
+                ghLink="https://github.com/antoniomattar/nye-countdown-2023"
+                demoLink="https://nye-countdown-2023.vercel.app"
+              />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={bf}
+                isBlog={false}
+                title="Brainfuck Interpreter"
+                description="Brainfuck interpreter written in C."
+                ghLink="https://github.com/antoniomattar/brainfuck-interpreter-in-c"
               />
           </Col>
 
