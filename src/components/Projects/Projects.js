@@ -7,6 +7,7 @@ import LBL from "../../Assets/Projects/LBL.png";
 import UICL from "../../Assets/Projects/UICL.png";
 import nyeCountdown from "../../Assets/Projects/nye-countdown.png";
 import bf from "../../Assets/Projects/bf.png";
+import globalproducts from "../../Assets/Projects/global-products.png";
 
 function Projects() {
   return (
@@ -21,15 +22,58 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bf}
+              isBlog={false}
+              title="Graphical User Interface Library"
+              description="GUI written in C."
+              ghLink="https://github.com/antoniomattar/graphical-user-interface-C"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={LBL}
-                isBlog={false}
-                title="Lebanese Basketball Website"
-                description="Find everything related to the LBL (Standings, games, stats)."
-                ghLink="https://github.com/antoniomattar/leb-basketball-site-next"
-                demoLink="https://leb-basketball-site-next.vercel.app"
-              />
+              imgPath={bf}
+              isBlog={false}
+              title="Brainfuck Interpreter"
+              description="Brainfuck interpreter written in C."
+              ghLink="https://github.com/antoniomattar/brainfuck-interpreter-in-c"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={globalproducts}
+              isBlog={false}
+              title="Global Products LB Website"
+              description="Website for a company that sells german manufactured products in Lebanon, specialized in electronic shelf labeling and lettering."
+              ghLink="https://github.com/antoniomattar/global-products-project"
+              demoLink="https://globalproductslb.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={LBL}
+              isBlog={false}
+              title="Lebanese Basketball Website"
+              description="Find everything related to the LBL (Standings, games, stats)."
+              ghLink="https://github.com/antoniomattar/leb-basketball-site-next"
+              demoLink="https://leb-basketball-site-next.vercel.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={UICL}
+              isBlog={false}
+              title="UICL Nigeria Website"
+              description="Construction Company Website. (Still not finished)"
+              ghLink="https://github.com/antoniomattar/uicl-nigeria"
+              demoLink="https://uicl-nigeria.vercel.app"
+            />
           </Col>
 
           <Col md={4} className="project-card">
@@ -45,36 +89,14 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={UICL}
-                isBlog={false}
-                title="UICL Nigeria Website"
-                description="Construction Company Website. (Still not finished)"
-                ghLink="https://github.com/antoniomattar/uicl-nigeria"
-                demoLink="https://uicl-nigeria.vercel.app"
-              />
+              imgPath={nyeCountdown}
+              isBlog={false}
+              title="New year countdown Website"
+              description="Countdown to the new year 2024 with fireworks and music."
+              ghLink="https://github.com/antoniomattar/nye-countdown-2023"
+              demoLink="https://nye-countdown-2023.vercel.app"
+            />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={nyeCountdown}
-                isBlog={false}
-                title="New year countdown Website"
-                description="Countdown to the new year 2024 with fireworks and music."
-                ghLink="https://github.com/antoniomattar/nye-countdown-2023"
-                demoLink="https://nye-countdown-2023.vercel.app"
-              />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={bf}
-                isBlog={false}
-                title="Brainfuck Interpreter"
-                description="Brainfuck interpreter written in C."
-                ghLink="https://github.com/antoniomattar/brainfuck-interpreter-in-c"
-              />
-          </Col>
-
         </Row>
       </Container>
     </Container>
