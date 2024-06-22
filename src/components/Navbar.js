@@ -41,9 +41,9 @@ function NavBar() {
         <Navbar.Brand href="/" className="d-flex">
         <img
               src={logo}
-              width="40"
+              width="32"
               height="40"
-              className="d-inline-block align-top"
+              className="d-inline-block align-top rounded-circle bg-green border border-light"
               alt="React Bootstrap logo"
             />
         </Navbar.Brand>
