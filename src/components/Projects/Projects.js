@@ -25,7 +25,7 @@ function Projects() {
 
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bf}
+              imgPath={ig}
               isBlog={false}
               title="Graphical User Interface Library"
               description="GUI written in C."
@@ -35,7 +35,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ig}
+              imgPath={bf}
               isBlog={false}
               title="Brainfuck Interpreter"
               description="Brainfuck interpreter written in C."
