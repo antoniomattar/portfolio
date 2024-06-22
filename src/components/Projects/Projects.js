@@ -8,6 +8,7 @@ import UICL from "../../Assets/Projects/UICL.png";
 import nyeCountdown from "../../Assets/Projects/nye-countdown.png";
 import bf from "../../Assets/Projects/bf.png";
 import globalproducts from "../../Assets/Projects/global-products.png";
+import ig from "../../Assets/Projects/ig.png";
 
 function Projects() {
   return (
@@ -34,7 +35,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bf}
+              imgPath={ig}
               isBlog={false}
               title="Brainfuck Interpreter"
               description="Brainfuck interpreter written in C."
